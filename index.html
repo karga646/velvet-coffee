@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Velvet Coffee | Cafetería en Montemorelos, N.L.</title>
+<meta name="description" content="Velvet Coffee — café arábigo de Chiapas, tapiocas y frappés en Plaza San Ángel, Montemorelos, N.L. Consulta menú, horarios y ubicación.">
+<link rel="icon" href="assets/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav container">
+    <a href="#inicio" class="nav-logo">
+      <img src="assets/img/logo.png" alt="Velvet Coffee">
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#menu">Menú</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#ubicacion">Ubicación</a></li>
+      <li><a href="#resenas">Reseñas</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="btn btn-primary" href="https://wa.me/528261615792?text=Hola%20Velvet%20Coffee%2C%20quisiera%20hacer%20un%20pedido" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="container hero-content">
+    <span class="section-label">Montemorelos, N.L.</span>
+    <h1>Café de especialidad, tapiocas y buena compañía</h1>
+    <p class="lead">Café arábigo de Chiapas, preparado en grano, y las tapiocas que ya son la comidilla de Montemorelos. Te esperamos en Plaza San Ángel.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#menu">Ver menú</a>
+      <a class="btn btn-outline" href="#ubicacion">Cómo llegar</a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <strong>5.0 ★</strong>
+        <span>Google Reviews</span>
+      </div>
+      <div>
+        <strong>+2K</strong>
+        <span>Seguidores IG</span>
+      </div>
+      <div>
+        <strong>100%</strong>
+        <span>Café en grano</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="nosotros">
+  <div class="container about-grid">
+    <div class="about-images">
+      <img class="img-main" src="assets/img/bebidas-1.png" alt="Bebidas de Velvet Coffee">
+      <img class="img-float" src="assets/img/croissant.jpg" alt="Croissant de jamón y queso con café helado">
+    </div>
+    <div class="about-text">
+      <span class="section-label">Nuestra historia</span>
+      <h2>La cafetería más nueva (y más querida) de Montemorelos</h2>
+      <p>En Velvet Coffee preparamos cada bebida con café arábigo de Chiapas en grano, molido al momento: Latte, Cappuccino, Americano y Espresso, además de frappés y tapiocas que se han vuelto la firma de la casa.</p>
+      <p>Somos un espacio chico, pensado para ir en pareja o con pocas personas, con atención cercana y honesta — así nos lo dicen quienes ya nos visitaron.</p>
+      <div class="about-badges">
+        <div class="badge"><span class="dot"></span> Café en grano, Chiapas</div>
+        <div class="badge"><span class="dot"></span> Tapiocas de la casa</div>
+        <div class="badge"><span class="dot"></span> Pedidos por WhatsApp</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="menu" id="menu">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-label">Menú</span>
+      <h2>Lo que preparamos con cariño</h2>
+      <p>Precios de referencia — pueden variar. Confírmalos por WhatsApp al hacer tu pedido.</p>
+    </div>
+
+    <div class="menu-tabs">
+      <button class="menu-tab active" data-tab="cafe">Café</button>
+      <button class="menu-tab" data-tab="frios">Frappés &amp; Fríos</button>
+      <button class="menu-tab" data-tab="tapiocas">Tapiocas</button>
+      <button class="menu-tab" data-tab="panaderia">Panadería</button>
+    </div>
+
+    <div class="menu-panel active" id="cafe">
+      <div class="menu-grid">
+        <div class="menu-item"><div><h4>Espresso</h4><p>Doble shot, café arábigo de Chiapas</p></div><span class="price">$35</span></div>
+        <div class="menu-item"><div><h4>Americano</h4><p>Espresso alargado con agua caliente</p></div><span class="price">$38</span></div>
+        <div class="menu-item"><div><h4>Cappuccino</h4><p>Espresso, leche vaporizada y espuma</p></div><span class="price">$48</span></div>
+        <div class="menu-item"><div><h4>Latte</h4><p>Espresso con leche cremosa, clásico o saborizado</p></div><span class="price">$50</span></div>
+      </div>
+    </div>
+
+    <div class="menu-panel" id="frios">
+      <div class="menu-grid">
+        <div class="menu-item"><div><h4>Iced Latte</h4><p>Espresso, leche y hielo</p></div><span class="price">$52</span></div>
+        <div class="menu-item"><div><h4>Frappé de Matcha</h4><p>Matcha, leche y crema batida</p></div><span class="price">$58</span></div>
+        <div class="menu-item"><div><h4>Frappé de Café</h4><p>Espresso, hielo y crema batida</p></div><span class="price">$56</span></div>
+        <div class="menu-item"><div><h4>Chocolate Frío</h4><p>Cacao, leche fría y hielo</p></div><span class="price">$52</span></div>
+      </div>
+    </div>
+
+    <div class="menu-panel" id="tapiocas">
+      <div class="menu-grid">
+        <div class="menu-item"><div><h4>Tapioca de Nutella</h4><p>Perlas de tapioca con café y Nutella</p></div><span class="price">$60</span></div>
+        <div class="menu-item"><div><h4>Tapioca Original</h4><p>Perlas de tapioca, café y leche</p></div><span class="price">$55</span></div>
+        <div class="menu-item"><div><h4>Tapioca de Oreo</h4><p>Perlas de tapioca, café y galleta Oreo</p></div><span class="price">$60</span></div>
+        <div class="menu-item"><div><h4>Tapioca de Caramelo</h4><p>Perlas de tapioca, café y caramelo</p></div><span class="price">$58</span></div>
+      </div>
+    </div>
+
+    <div class="menu-panel" id="panaderia">
+      <div class="menu-grid">
+        <div class="menu-item"><div><h4>Croissant de jamón y queso</h4><p>Croissant horneado relleno</p></div><span class="price">$65</span></div>
+        <div class="menu-item"><div><h4>Croissant simple</h4><p>Recién horneado</p></div><span class="price">$40</span></div>
+      </div>
+    </div>
+
+    <p class="menu-note">¿Se te antoja algo que no ves aquí? Pregúntanos por WhatsApp — el menú cambia seguido.</p>
+  </div>
+</section>
+
+<section class="gallery" id="galeria">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-label">Galería</span>
+      <h2>Un vistazo a Velvet</h2>
+    </div>
+    <div class="gallery-grid">
+      <a class="span-2 span-2-row" href="assets/img/hero-sign.png" target="_blank"><img src="assets/img/hero-sign.png" alt="Letrero dorado Velvet Coffee"></a>
+      <a href="assets/img/bebidas-1.png" target="_blank"><img src="assets/img/bebidas-1.png" alt="Bebidas frías Velvet Coffee"></a>
+      <a href="assets/img/bebidas-2.png" target="_blank"><img src="assets/img/bebidas-2.png" alt="Frappé de matcha y tapioca de Nutella"></a>
+      <a class="span-2" href="assets/img/croissant.jpg" target="_blank"><img src="assets/img/croissant.jpg" alt="Croissant con café helado"></a>
+    </div>
+  </div>
+</section>
+
+<section class="location" id="ubicacion">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-label">Ubicación</span>
+      <h2>Te esperamos en Plaza San Ángel</h2>
+    </div>
+    <div class="location-grid">
+      <div class="location-info">
+        <h3>Velvet Coffee</h3>
+        <div class="info-row">
+          <span class="icon">📍</span>
+          <div>
+            <strong>Dirección</strong>
+            <span>Av. Capitán Alonso de León 105, Local 10 (2do piso)<br>Plaza San Ángel, Col. Zaragoza<br>67530 Montemorelos, N.L.</span>
+          </div>
+        </div>
+        <div class="info-row">
+          <span class="icon">📞</span>
+          <div>
+            <strong>Teléfono / WhatsApp</strong>
+            <a href="tel:+528261615792">826 161 5792</a>
+          </div>
+        </div>
+        <div class="info-row">
+          <span class="icon">⭐</span>
+          <div>
+            <strong>Calificación</strong>
+            <span>5.0 en Google (6 reseñas)</span>
+          </div>
+        </div>
+        <a class="btn btn-primary" href="https://www.google.com/maps/dir/?api=1&destination=25.1878107,-99.8357949" target="_blank" rel="noopener" style="margin-top:12px;">Cómo llegar</a>
+      </div>
+      <div class="map-frame">
+        <iframe
+          src="https://www.google.com/maps?q=VELVET+COFFEE+Montemorelos,25.1878107,-99.8357949&hl=es&z=17&output=embed"
+          allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="Mapa de Velvet Coffee">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hours" id="horarios">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-label">Horarios</span>
+      <h2>¿Cuándo te esperamos?</h2>
+    </div>
+    <div class="hours-table" id="hoursTable">
+      <div class="hours-row" data-day="1"><span>Lunes</span><span>8:00 am – 7:30 pm</span></div>
+      <div class="hours-row" data-day="2"><span>Martes</span><span>8:00 am – 7:30 pm</span></div>
+      <div class="hours-row" data-day="3"><span>Miércoles</span><span>8:00 am – 7:30 pm</span></div>
+      <div class="hours-row" data-day="4"><span>Jueves</span><span>8:00 am – 7:30 pm</span></div>
+      <div class="hours-row" data-day="5"><span>Viernes</span><span>8:00 am – 7:30 pm</span></div>
+      <div class="hours-row" data-day="6"><span>Sábado</span><span>Por confirmar</span></div>
+      <div class="hours-row" data-day="0"><span>Domingo</span><span>5:00 pm – 9:00 pm</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="reviews" id="resenas">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-label">Reseñas</span>
+      <h2>Lo que dicen de nosotros</h2>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"Creo que es la cafetería más nueva de Montemorelos. Chiquita para ir con tu pareja o con pocas personas. Las chicas que atienden son amables y honradas."</p>
+        <div class="review-author">
+          <span class="avatar">J</span>
+          <div><strong>Jairo Sh.</strong><small>Local Guide · Google</small></div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"Súper rico todo. Lo recomiendo 100%, tienen que ir a probarlo."</p>
+        <div class="review-author">
+          <span class="avatar">R</span>
+          <div><strong>Regina L.</strong><small>Google Reviews</small></div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"Preguntamos qué tipo de café venden: es café arábigo de Chiapas en grano, preparado en Latte, Cappuccino, Americano y Espresso."</p>
+        <div class="review-author">
+          <span class="avatar">C</span>
+          <div><strong>Cristina T.</strong><small>Google Reviews</small></div>
+        </div>
+      </div>
+    </div>
+    <div class="reviews-cta">
+      <a class="btn btn-dark" href="https://www.google.com/maps/place/VELVET+COFFEE/@25.1878107,-99.8357949,17z" target="_blank" rel="noopener">Ver todas las reseñas en Google</a>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contacto">
+  <div class="container">
+    <span class="section-label">Contacto</span>
+    <h2>Haz tu pedido o solo ven a visitarnos</h2>
+    <p class="lead">Los pedidos se toman únicamente por WhatsApp. Escríbenos y con gusto te atendemos.</p>
+    <div class="contact-actions">
+      <a class="btn btn-primary" href="https://wa.me/528261615792?text=Hola%20Velvet%20Coffee%2C%20quisiera%20hacer%20un%20pedido" target="_blank" rel="noopener">💬 Pedir por WhatsApp</a>
+      <a class="btn btn-outline" href="tel:+528261615792">📞 Llamar</a>
+    </div>
+    <div class="social-row">
+      <a href="https://www.instagram.com/velvett.coffee" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+      <a href="https://www.facebook.com/search/top?q=velvet%20coffee%20montemorelos" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© <span id="year"></span> Velvet Coffee — Montemorelos, N.L. · Café, Tapioca y más ☕</p>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/528261615792?text=Hola%20Velvet%20Coffee%2C%20quisiera%20hacer%20un%20pedido" target="_blank" rel="noopener" aria-label="Pedir por WhatsApp">💬</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
