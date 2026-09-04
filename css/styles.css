@@ -420,6 +420,7 @@ header {
 .hours-row span:last-child { color: var(--text-soft); }
 .hours-row.today { color: var(--gold); }
 .hours-row.today span { color: var(--gold); font-weight: 700; }
+.hours-row.closed span:last-child { color: #b08a8a; font-style: italic; }
 
 /* ===== Reviews ===== */
 .reviews { background: var(--beige); }
